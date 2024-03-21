@@ -9,7 +9,7 @@ export const Blogs = () => {
   
 
   useEffect(()=>{
-    fetch("http://localhost:5173/Data.json")
+    fetch("http://localhost:5174/Data.json")
     .then((response)=>response.json())
     .then((result)=>{
       const blogs=result.data
