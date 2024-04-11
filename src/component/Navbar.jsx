@@ -12,7 +12,7 @@ export const Navbar = () => {
      <div className="row " style={{width:'100%'}}>
         <div className="col-4">
         <a className="navbar-brand" href="#">
-        <img src="./src/image/pngwing.png" alt="Avatar Logo" style={{width:"40px"}} className="rounded-pill bg-light"/>
+        {/* <img src="./src/image/pngwing.png" alt="Avatar Logo" style={{width:"40px"}} className="rounded-pill bg-light"/> */}
         <span className="navbar-brand mx-3">Spider-Man</span>
       </a>
         </div>
